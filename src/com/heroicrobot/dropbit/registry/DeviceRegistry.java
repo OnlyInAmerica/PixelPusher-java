@@ -57,7 +57,7 @@ public final class DeviceRegistry extends Observable {
   private static double powerScale = 1.0;
   private static boolean autoThrottle = false;
   private static boolean AntiLog = false;
-  private static boolean logEnabled = true;
+  private static boolean logEnabled = false;
   private static int frameLimit = 85;
   private static Boolean hasDiscoveryListener = false;
   private static Boolean alreadyExist = false;
